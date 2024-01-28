@@ -1,0 +1,13 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+
+# SQLite database
+*.db
+
+# Virtual environment
+venv/
