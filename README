@@ -1,0 +1,7 @@
+user/signup: User registration
+user/signin: User login
+user/logout: User logout
+user/coins: Get all tracked coins
+user/coins/{id}: Get certain tracked coins
+user/addCoin/{id}: Add a new coin to the user's portfolio
+user/removeCoin/{id}: remove coin from the user's portfolio
