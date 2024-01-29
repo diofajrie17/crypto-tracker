@@ -5,3 +5,20 @@ user/coins: Get all tracked coins
 user/coins/{id}: Get certain tracked coins
 user/addCoin/{id}: Add a new coin to the user's portfolio
 user/removeCoin/{id}: remove coin from the user's portfolio
+
+after you clone this repo
+- python -m venv venv
+# On macOS/Linux
+- source venv/bin/activate
+# On Windows
+- .\venv\Scripts\activate
+
+#on venv activate
+- pip install -r requirements.txt
+
+- python -m databases
+
+- uvicorn main:app --reload
+
+
+
